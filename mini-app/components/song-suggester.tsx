@@ -8,7 +8,7 @@ export default function SongSuggester() {
 
   const suggestSongs = () => {
     // Mock suggestion logic – replace with real API call if needed
-    const mock = {
+    const mock: Record<string, string[]> = {
       chill: ["Lo-Fi Beats", "Ambient Waves", "Soft Piano"],
       party: ["Dance Anthem", "Club Banger", "Party Rock"],
       sad: ["Melancholy Melody", "Rainy Day", "Blue Notes"],
